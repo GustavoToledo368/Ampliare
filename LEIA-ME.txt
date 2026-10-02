@@ -1,0 +1,15 @@
+AMPLIARE PROSPECÇÃO — CORREÇÃO NETLIFY
+
+Esta versão inclui as Netlify Functions que estavam faltando na versão anterior.
+
+CNPJ:
+- funciona sem chave usando BrasilAPI / Minha Receita.
+
+NOME DA EMPRESA:
+- usa Google Places API.
+- no Netlify, configure GOOGLE_PLACES_API_KEY em:
+  Site configuration > Environment variables > Add a variable.
+
+Depois publique esta pasta novamente.
+
+Não coloque chaves de API dentro do index.html.
